@@ -2,6 +2,10 @@
   "name": "fbcssplugin",
   "version": "1.0.3",
   "description": "Ajout d'une injection partielle des CSS au plugin CSSPlugin de FuseBox 3.7.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasBoyer/FBcssPlugin"
+  },
   "main": "library/index.js",
   "types": "library/index.d.ts",
   "author": "Nicolas Boyer",
@@ -22,5 +26,9 @@
     "fuse-box": "^3.7.1",
     "tslint": "^5.20.0",
     "typescript": "^3.6.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/NicolasBoyer/FBcssPlugin/issues"
+  },
+  "homepage": "https://github.com/NicolasBoyer/FBcssPlugin#readme"
 }
