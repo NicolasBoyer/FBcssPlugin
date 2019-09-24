@@ -1,0 +1,26 @@
+{
+  "name": "fbcssplugin",
+  "version": "1.0.3",
+  "description": "Ajout d'une injection partielle des CSS au plugin CSSPlugin de FuseBox 3.7.1",
+  "main": "library/index.js",
+  "types": "library/index.d.ts",
+  "author": "Nicolas Boyer",
+  "license": "MIT",
+  "scripts": {
+    "transpile": "node ./transpile.js"
+  },
+  "keywords": [
+    "exemple",
+    "npm",
+    "fusebox",
+    "inject",
+    "header"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "fuse-box": "^3.7.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
